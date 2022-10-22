@@ -60,7 +60,6 @@ const Comments = ({ videoId }) => {
     }
   };
 
-  console.log(typeof desc);
 
   useEffect(() => {
     const fetchComments = async () => {
